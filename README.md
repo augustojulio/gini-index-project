@@ -38,8 +38,8 @@ This project is a Python application that processes Gini Index data from the 199
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/your-username/ibge-gini-processor.git
-   cd ibge-gini-processor
+   git clone https://github.com/augustojulio/gini-index-project.git
+   cd gini-index-project
    ```
 2. **Create a `.env` file** at the root of the project with the following environment variables:
 
