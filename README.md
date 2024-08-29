@@ -60,9 +60,7 @@ This project is a Python application that processes Gini Index data from the 199
 
 ## Running Tests
 
-To run the unit tests:
-
-`docker-compose exec web pytest`
+TO DO: add unit tests - future feature
 
 ## Database Migrations
 
