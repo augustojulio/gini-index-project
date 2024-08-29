@@ -54,6 +54,10 @@ This project is a Python application that processes Gini Index data from the 199
 
    The application will be available at `http://localhost:5000`.
 
+   Use an HTTP client like Postman or curl:
+
+   `curl -X POST http://localhost:5000/gini/process`
+
 ## Running Tests
 
 To run the unit tests:
