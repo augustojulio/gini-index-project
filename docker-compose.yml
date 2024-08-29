@@ -1,15 +1,15 @@
 version: '3.8'
 services:
   db:
-    image: postgres:14
+    image: postgres:13
     environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+      POSTGRES_USER: augusto
+      POSTGRES_PASSWORD: 123
       POSTGRES_DB: gini_db
     ports:
       - "5432:5432"
     volumes:
-      - db_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
 
   web:
     build: .
@@ -24,4 +24,4 @@ services:
       - db
 
 volumes:
-  db_data:
+  postgres_data:
