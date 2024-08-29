@@ -8,4 +8,4 @@ class GiniIndex(db.Model):
     state = db.Column(db.String(100))
     city = db.Column(db.String(100))
     year = db.Column(db.Integer)
-    gini_value = db.Column(db.Float)
+    gini_value = db.Column(db.String(20))
