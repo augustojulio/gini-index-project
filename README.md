@@ -68,10 +68,13 @@ To run the unit tests:
 
 Whenever you make changes to the models:
 
-1. Generate a new migration:
+1. Create first migration:
+
+   `docker-compose exec web alembic init migrations`
+2. Generate a new migration:
 
    `docker-compose exec web alembic revision --autogenerate -m "Description of change"`
-2. Apply the migration:
+3. Apply the migration:
 
    `docker-compose exec web alembic upgrade head`
 

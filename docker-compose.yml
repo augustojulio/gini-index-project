@@ -16,6 +16,8 @@ services:
     command: flask run --host=0.0.0.0
     volumes:
       - .:/app
+    environment:
+      - PYTHONPATH=/app
     ports:
       - "5000:5000"
     env_file:
