@@ -1,9 +1,0 @@
-Flask==2.3.2
-SQLAlchemy==2.0.10
-psycopg2-binary==2.9.6
-pandas
-alembic==1.10.3
-Flask-SQLAlchemy
-python-dotenv==0.21.0
-pyexcel
-pyexcel-xls
